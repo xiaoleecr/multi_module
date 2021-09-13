@@ -4,15 +4,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @ClassName GoodByeController
+ * @ClassName BetaController
  * @Description
  * @Author licongrui
  * @Date 2021/9/13
  */
 @RestController
-public class GoodByeController {
-    @GetMapping("/bye")
-    public String bye(){
-        return "good bye";
+public class BetaController {
+    @GetMapping("/beta")
+    public String betaMethod(){
+        return "this is beta";
     }
 }
