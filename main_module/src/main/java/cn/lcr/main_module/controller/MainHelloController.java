@@ -14,6 +14,6 @@ public class MainHelloController {
 
     @GetMapping("/main")
     public String MainHello(){
-        return "hello everyone";
+        return "hello everybody";
     }
 }
